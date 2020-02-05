@@ -1,0 +1,11 @@
+-------------------------------------------------------------------------------
+Test set: com.hrms.runners.SmokeRunner
+-------------------------------------------------------------------------------
+Tests run: 2, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 27.371 s <<< FAILURE! - in com.hrms.runners.SmokeRunner
+Login.Valid login  Time elapsed: 12.001 s  <<< ERROR!
+org.openqa.selenium.NoSuchSessionException: 
+Session ID is null. Using WebDriver after calling quit()?
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'Jessicas-MacBook-Pro.local', ip: 'fe80:0:0:0:1007:5d36:32ad:2b9b%en0', os.name: 'Mac OS X', os.arch: 'x86_64', os.version: '10.15.2', java.version: '1.8.0_221'
+Driver info: driver.version: RemoteWebDriver
+
